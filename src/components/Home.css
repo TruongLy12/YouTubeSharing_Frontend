@@ -1,0 +1,53 @@
+body {
+    display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  }
+
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .icon, .app-name, .welcome-text, .logout-btn {
+    margin: 10px;
+  }
+  
+  .body {
+    max-width: 600px;
+  }
+  
+  .body-section {
+    margin-top: 80px;    
+  }
+  
+  .label {
+    display: block;
+  }
+  
+  .input {
+    display: inline-block;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .sharing-btn {
+    margin-top: 5px;
+  }
+  
+  .data-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .title, .username, .url {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .error {
+    color: red;
+}
+  
