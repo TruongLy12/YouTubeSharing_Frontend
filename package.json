@@ -1,6 +1,7 @@
 {
   "name": "youtube-sharing",
   "version": "0.1.0",
+  "homepage": "https://TruongLy12.github.com/YouTubeSharing_Frontend",
   "private": true,
   "dependencies": {
     "@stomp/stompjs": "^7.0.0",
