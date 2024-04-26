@@ -29,7 +29,7 @@ describe('Login component', () => {
         // Expect axios post method to be called with correct arguments
         await waitFor(() => {
             expect(axios.post).toHaveBeenCalledWith(
-                'http://localhost:8080/api/auth/login',
+                'https://bold-astrix-formyownpersonal.koyeb.app/api/auth/login',
                 { username: 'test@example.com', password: 'password123' },
                 { headers: { Accept: 'application/json', 'Content-Type': 'application/json' } }
             );

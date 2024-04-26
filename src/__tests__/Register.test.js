@@ -21,7 +21,7 @@ describe('Register component', () => {
         // Expect axios post method to be called with correct arguments
         await waitFor(() => {
             expect(axios.post).toHaveBeenCalledWith (
-                'http://localhost:8080/api/auth/register',
+                'https://bold-astrix-formyownpersonal.koyeb.app/api/auth/register',
                 { username: 'test@example.com', password: 'password123' },
                 { headers: { Accept: 'application/json', 'Content-Type': 'application/json' } }
             );

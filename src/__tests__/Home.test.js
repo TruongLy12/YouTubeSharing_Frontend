@@ -11,7 +11,7 @@ jest.mock('axios');
 describe('Home component', () => {
     test('renders home page and submits successfully', async () => {
         // Mock successful response from axios for fetching messages
-        axios.get.mockResolvedValue({ data: [{ title: 'Test Title', username: 'Test User', url: 'https://localhost/test' }] });
+        axios.get.mockResolvedValue({ data: [{ title: 'Test Title', username: 'Test User', url: 'https://bold-astrix-formyownpersonal.koyeb.app/test' }] });
 
         const { getByText, getByPlaceholderText } = render(
             <MemoryRouter>

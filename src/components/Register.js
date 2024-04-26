@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Register.css'; 
 
-const REGISTER_URL = "http://localhost:8080/api/auth/register";
+const REGISTER_URL = "https://bold-astrix-formyownpersonal.koyeb.app/api/auth/register";
 
 const Register = () => {
     const [username, setUsername] = useState('');

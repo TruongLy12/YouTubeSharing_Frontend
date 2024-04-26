@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import './Login.css'; 
 
-const LOGIN_URL = "http://localhost:8080/api/auth/login";
+const LOGIN_URL = "https://bold-astrix-formyownpersonal.koyeb.app/api/auth/login";
 
 const Login = () => {
     const [username, setUsername] = useState('');

@@ -29,7 +29,7 @@ const Home = () => {
         // Get list sharing from backend api
         const fetchMessages = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/api/sharings');
+                const response = await axios.get('https://bold-astrix-formyownpersonal.koyeb.app/api/sharings');
                 if (Array.isArray(response.data) && response.data.length > 0) {
                     setListSharings(response.data);
                 }                
@@ -40,7 +40,7 @@ const Home = () => {
         fetchMessages();
 
         // Connect to WebSocket server
-        const socket = new SockJS('http://localhost:8080/ws');
+        const socket = new SockJS('https://bold-astrix-formyownpersonal.koyeb.app/ws');
         const stomp = new Client({
             webSocketFactory: () => socket
         });
