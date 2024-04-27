@@ -1,6 +1,7 @@
 {
   "name": "youtube-sharing",
-  "version": "0.1.0",  
+  "homepage": ".",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@stomp/stompjs": "^7.0.0",
@@ -8,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
+    "firebase": "^10.11.1",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,7 +18,7 @@
     "sockjs-client": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {    
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +46,5 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  },
-  "homepage": "https://TruongLy12.github.com/YouTubeSharing_Frontend"
+  }
 }
