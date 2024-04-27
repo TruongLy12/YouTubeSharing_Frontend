@@ -1,7 +1,6 @@
 {
   "name": "youtube-sharing",
-  "version": "0.1.0",
-  "homepage": "https://TruongLy12.github.com/YouTubeSharing_Frontend",
+  "version": "0.1.0",  
   "private": true,
   "dependencies": {
     "@stomp/stompjs": "^7.0.0",
@@ -17,13 +16,13 @@
     "sockjs-client": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "scripts": {    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +44,6 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "homepage": "https://TruongLy12.github.com/YouTubeSharing_Frontend"
 }
